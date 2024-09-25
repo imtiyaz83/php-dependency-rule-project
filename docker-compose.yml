@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    volumes:
+      - ./src:/app/src
+      - ./dependencies:/app/dependencies
+    working_dir: /app
+    command: php -S 0.0.0.0:8000 -t src
+    ports:
+      - "8000:8000"
+

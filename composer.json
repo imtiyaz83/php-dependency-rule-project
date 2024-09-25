@@ -1,0 +1,8 @@
+{
+    "name": "imtiyaz/automated-php-project",
+    "description": "A PHP project with automated dependencies",
+    "require": {
+           "monolog/monolog": "*",
+           "guzzlehttp/guzzle": "*"
+       }
+}
